@@ -57,51 +57,6 @@ color: rgb(4, 4, 167);
     padding-left: 2rem;
 
 }
-/* .img{
-	position: relative;
-	width: 500px;
-}
-.img img{
-	width: 100%;
-	height: auto;
-}
-.imgword{
-
-     position: absolute;
-     width: 357.19px;
-	 height: 92px;
-     top: 400.7px;
-     left: -18px;
-     rotate: -5deg;
-      font-size: 37px; 
-      font-family: Arial, sans-serif; 
-      font-weight: bold; 
-      color: white;
-      padding: 3px;
-     font-style: italic;
-     line-height: 45.88px;
-     text-align: center;
-
-}
-.just{
-	font-family: Arial, sans-serif;
-font-size: 29.5px;
-font-style: italic;
-font-weight: 800;
-line-height: 36.7px;
-text-align: center;
-
-}
-.home{
-	font-family: Arial, sans-serif;
-	font-size: 28px;
-	font-style: italic;
-	font-weight: 800;
-	line-height: 36.7px;
-	text-align: center;
-	
-	color:rgb(255, 200, 47) ;
-} */
 
 /* mobile menu */
 .mobilenavmenu,
@@ -142,9 +97,13 @@ text-align: center;
 		top: 100%;
 		z-index: 9;
 	}
+	.img{
+		padding: 18px;
+	}
 	h2{
 		padding:4px;
-		margin-left: 9px;
+		margin:30px 9px;
+	
 		font-size:32px ;
 		font-weight: 500;
 		line-height: 38.73px;  
@@ -152,23 +111,18 @@ text-align: center;
 	  .line4{
 		  margin-left: 10px;
 		  margin-right: 10px;
+		  margin-bottom: 10px;
 		border: 1px solid #D9D9D9;  
 		top: 295px;
 	  }
-	  .line{
-		margin-left: 10px;
-		margin-right: 10px;
-	  border: 1px solid #D9D9D9;  
-	  top: 295px;
-	}
-	  .form{
+	  /* .form{
 		 
-		  display: grid;
+		  /* display: grid;
 		  place-items: center;
-		  grid-template-columns: 1fr 1fr;
-		  margin: 10px; 
+		  grid-template-columns: 1fr;
+		  margin: 10px;  */
 
-	  }
+	  } */
 	.name{
 		display: flex;
 		flex-direction: row;  
@@ -178,32 +132,29 @@ text-align: center;
 
  .footer{
 	background-color: rgb(2, 2, 51);
-	padding: 6px;
-	display: grid;
+	 padding: 6px;
+	 /* display: grid; */
  }
  .subbtn{
 	padding: 6px;
 	border-radius: 8px;
  }
 .subscribe{
-display: flex;
-align-items: center;
-justify-content: space-between;
+display: grid;
+place-items:start ;
+margin: 12px;
+/* justify-content: space-between; */
 }
 .socials{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-place-items: center;
+/* grid-template-columns: 1fr ; */
+/* place-items: center; */
 gap: 10px;
-margin: 3px;
 }
 .company{
 	display: grid;
-	place-items: center;
 
 }
 p{
 	color: rgb(81, 81, 216);
-}
-
 }
